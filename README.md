@@ -152,6 +152,6 @@ This will display the logs of the qperf pod. The std.log file contains detailed 
 To remove the qperf deployment from your cluster, run:
 
 ```bash
-kubectl delete -f deployment.yaml
+kubectl delete -f Deployment.yaml
 ```
 This will delete the qperf pod and associated resources from your Kubernetes cluster. It is essential to clean up the qperf pod after collecting your data to avoid continuous usage of bandwidth and latency, as qperf tests run every 60 seconds.
