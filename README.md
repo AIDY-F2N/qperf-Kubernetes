@@ -112,7 +112,7 @@ In this data.json example:
 
 - Each timestamp represents a measurement point.
 - node1 and node2 represent two worker nodes.
-- Under each timestamp, bandwidth (bw) and latency (latency) measurements are provided in both directions between node1 and node2.
+- Under each timestamp, bandwidth (bw) measurement is provided in Mb/s and latency (latency) measurement is provided in milliseconds, in both directions between node1 and node2.
 This structure allows for tracking and analysis of network performance metrics over time between the specified nodes. Adjustments can be made to the actual data structure based on specific needs and additional nodes involved in the measurements.
 
 ## Bandwidth and Latency Measurement Overview:
