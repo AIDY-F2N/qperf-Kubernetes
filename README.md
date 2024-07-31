@@ -25,7 +25,7 @@ This repository provides instructions and configurations to deploy a qperf tool 
 1.  Step 1: Clone this repository
 
 ```bash
-git clone git@github.com:AIDY-F2N/qperf-Kubernetes.git
+git clone https://github.com/AIDY-F2N/qperf-Kubernetes.git
 cd qperf-kubernetes
 ```
     
